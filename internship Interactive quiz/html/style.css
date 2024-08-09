@@ -1,0 +1,152 @@
+body {
+    /* background: rgb(238,174,202); */
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    background-image: url("quiz background.jpg");
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.quiz-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.results-section {
+    text-align: center;
+}
+
+.results-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.results-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.results-section button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .quiz-section {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    label {
+        font-size: 0.875rem;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 0.875rem;
+    }
+
+    .results-section h2 {
+        font-size: 1.25rem;
+    }
+
+    .results-section p {
+        font-size: 0.875rem;
+    }
+
+    .results-section button {
+        padding: 8px 16px;
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .quiz-section {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    label {
+        font-size: 0.75rem;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+    }
+
+    .results-section h2 {
+        font-size: 1rem;
+    }
+
+    .results-section p {
+        font-size: 0.75rem;
+    }
+
+    .results-section button {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+    }
+}
